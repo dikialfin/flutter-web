@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:typewritertext/typewritertext.dart';
 import 'package:web_portofolio/cubit/language_cubit.dart';
 import 'package:web_portofolio/cubit/screen_cubit.dart';
+import 'dart:html' as html;
 
 class Headlines extends StatefulWidget {
   const Headlines({super.key});
@@ -66,17 +67,28 @@ class _HeadlinesState extends State<Headlines> {
                   Row(
                     children: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          html.window
+                              .open("https://github.com/dikialfin", "_blank");
+                        },
                         icon: Icon(FontAwesomeIcons.github),
                         color: Colors.white,
                       ),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          html.window.open(
+                              "https://www.instagram.com/diki.alfin_",
+                              "_blank");
+                        },
                         icon: Icon(FontAwesomeIcons.instagram),
                         color: Colors.white,
                       ),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          html.window.open(
+                              "https://www.linkedin.com/in/mohamaddikialfin/",
+                              "_blank");
+                        },
                         icon: Icon(FontAwesomeIcons.linkedin),
                         color: Colors.white,
                       ),

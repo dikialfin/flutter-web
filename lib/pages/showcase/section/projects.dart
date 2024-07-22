@@ -22,9 +22,9 @@ class _ProjectsState extends State<Projects> {
       ],
       developOn: DateTime.now(),
       projectDesc:
-          "Aplikasi android yang kami buat berdasarkan keresahan kami dalam melacak aktivitas ibadah dalam bulan Ramadan. Awalnya kami menggunakan google form untuk melakukan tracking ini, tapi kekurangannya adalah kami tidak bisa melihat ibadah yang kami lakukan pada hari sebelumnya. Kemudian kami membuat tracking ini di Microsoft Excel, tetapi menurut kami untuk pengolahan data di Excel cukup sulit dan susah untuk mengaitkan antara item satu dengan yang lainnya. Akhirnya, kami memutuskan untuk membuat Aplikasi Ramadan Daily Tracking ini.",
+          "Sebuah portfolio web yang di bangun menggunakan framework flutter",
       projectImage: AssetImage("assets/project/flutter-web-portofolio.png"),
-      url: "https://github.com",
+      url: "https://github.com/dikialfin/flutter-web",
     ),
     ProjectCard(
       projectName: "Ramadhan Daily Tracking App",
@@ -33,7 +33,7 @@ class _ProjectsState extends State<Projects> {
       ],
       developOn: DateTime.now(),
       projectDesc:
-          "Aplikasi android yang kami buat berdasarkan keresahan kami dalam melacak aktivitas ibadah dalam bulan Ramadan. Awalnya kami menggunakan google form untuk melakukan tracking ini, tapi kekurangannya adalah kami tidak bisa melihat ibadah yang kami lakukan pada hari sebelumnya. Kemudian kami membuat tracking ini di Microsoft Excel, tetapi menurut kami untuk pengolahan data di Excel cukup sulit dan susah untuk mengaitkan antara item satu dengan yang lainnya. Akhirnya, kami memutuskan untuk membuat Aplikasi Ramadan Daily Tracking ini.",
+          "Sebuah aplikasi android yang bertujuan untuk mencatat aktivitas ibadah selama bulan puasa",
       projectImage: AssetImage("assets/project/ramadhan-daily-tracking.png"),
       url: "https://nsgrdev.com/ramadan-daily-tracking",
     ),
@@ -44,7 +44,7 @@ class _ProjectsState extends State<Projects> {
       ],
       developOn: DateTime.now(),
       projectDesc:
-          "Aplikasi android yang kami buat berdasarkan keresahan kami dalam melacak aktivitas ibadah dalam bulan Ramadan. Awalnya kami menggunakan google form untuk melakukan tracking ini, tapi kekurangannya adalah kami tidak bisa melihat ibadah yang kami lakukan pada hari sebelumnya. Kemudian kami membuat tracking ini di Microsoft Excel, tetapi menurut kami untuk pengolahan data di Excel cukup sulit dan susah untuk mengaitkan antara item satu dengan yang lainnya. Akhirnya, kami memutuskan untuk membuat Aplikasi Ramadan Daily Tracking ini.",
+          "Sebuah web portfolio responsive yang di bangun menggunakan tailwind css",
       projectImage: AssetImage("assets/project/tailwind-web-portofolio.png"),
       url: "https://github.com/dikialfin/tailwind-test",
     ),
