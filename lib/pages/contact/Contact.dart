@@ -21,7 +21,6 @@ class _ContactState extends State<Contact> {
       body: WebSmoothScroll(
           controller: scrollController,
           child: SingleChildScrollView(
-            physics: NeverScrollableScrollPhysics(),
             controller: scrollController,
             child: Container(
               padding: const EdgeInsets.all(30),

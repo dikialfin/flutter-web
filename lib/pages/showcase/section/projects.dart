@@ -16,6 +16,30 @@ class _ProjectsState extends State<Projects> {
 
   final List<Widget> listProject = [
     ProjectCard(
+      projectName: "Website URL Shortener",
+      techStack: [
+        AssetImage("assets/icons/laravel.png"),
+        AssetImage("assets/icons/tailwind.png"),
+      ],
+      developOn: DateTime.now(),
+      projectDesc:
+          "Sebuah website yang dapat mempermudah penggunanya untuk menyingkat url link yang panjang menjadi sebuah url link yang singkat. Website ini dikembangkan menggunakan Laravel 10 dan tailwind.",
+      projectImage: AssetImage("assets/project/linkly_web.png"),
+      url: "https://linkly.dikialfin.com/",
+    ),
+    ProjectCard(
+      projectName: "Instagram Comment Assistant",
+      techStack: [
+        AssetImage("assets/icons/laravel.png"),
+      ],
+      developOn: DateTime.now(),
+      projectDesc:
+          "Sebuah webhook yang membuat akun instagram penggunanya dapat membalas komentar orang lain secara otomatis. webhook ini di kembangkan menggunakan laravel 10 dan gemini ai.",
+      projectImage: AssetImage("assets/project/comment_assist.png"),
+      url:
+          "https://www.instagram.com/reel/C-WzSBnBxUy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+    ),
+    ProjectCard(
       projectName: "Flutter Web Portfolio",
       techStack: [
         AssetImage("assets/icons/flutter.png"),
@@ -47,6 +71,17 @@ class _ProjectsState extends State<Projects> {
           "Sebuah web portfolio responsive yang di bangun menggunakan tailwind css",
       projectImage: AssetImage("assets/project/tailwind-web-portofolio.png"),
       url: "https://github.com/dikialfin/tailwind-test",
+    ),
+    ProjectCard(
+      projectName: "Sistem Informasi Ikan Cupang",
+      techStack: [
+        AssetImage("assets/icons/flutter.png"),
+      ],
+      developOn: DateTime.now(),
+      projectDesc:
+          "Aplikasi system informasi ikan cupang membantu para pengguna nya untuk mendapatkan informasi mengenai berbagai jenis ikan cupang serta tips dalam perawatan nya. Aplikasi ini berbasis android dan di kembangkan menggunakan framework flutter",
+      projectImage: AssetImage("assets/project/cupang_apps.png"),
+      url: "https://github.com/dikialfin/cupangapps",
     ),
   ];
 

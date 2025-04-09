@@ -73,7 +73,6 @@ class _ShowcaseState extends State<Showcase> {
                                 controller: scrollController,
                                 child: SingleChildScrollView(
                                   controller: scrollController,
-                                  physics: NeverScrollableScrollPhysics(),
                                   child: Column(
                                     children: [
                                       Headlines(),

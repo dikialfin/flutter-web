@@ -25,7 +25,6 @@ class _AboutState extends State<About> {
           controller: scrollController,
           child: SingleChildScrollView(
             controller: scrollController,
-            physics: const NeverScrollableScrollPhysics(),
             child: Container(
               padding: const EdgeInsets.all(30),
               width: MediaQuery.of(context).size.width,
